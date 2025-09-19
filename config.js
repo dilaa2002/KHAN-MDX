@@ -13,15 +13,15 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID || "IK~0eFElSoL#nows6GZo2-LRgfMegeIV1VpMV6t4_gYveMNrsCfKyIo",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     CHATBOT: getConfig("CHATBOT") || "on", // on/off chat bot 
-    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "KHAN-RD",  // Bot's display name
+    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "RD",  // Bot's display name
     MODE: getConfig("MODE") || process.env.MODE || "public",        // Bot mode: public/private/group/inbox
-    REPO: process.env.REPO || "https://github.com/JawadTechXD/KHAN-RD",  // Bot's GitHub repo
+    REPO: process.env.REPO || "https://github.com/JawadTechXD/RD",  // Bot's GitHub repo
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  // Bot's BAILEYS
 
     // ===== OWNER & DEVELOPER SETTINGS =====
     OWNER_NUMBER: process.env.OWNER_NUMBER || "923427582273",  // Owner's WhatsApp number
     OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "RD",           // Owner's name
-    DEV: process.env.DEV || "923427582273",                     // Developer's contact number
+    DEV: process.env.DEV || "94701418815",                     // Developer's contact number
     DEVELOPER_NUMBER: '923427582273@s.whatsapp.net',            // Developer's WhatsApp ID
 
     // ===== AUTO-RESPONSE SETTINGS =====
